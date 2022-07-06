@@ -16,3 +16,4 @@ for (i in c(1:4)) {
 }
 print(test)
 ```
+![000003](https://user-images.githubusercontent.com/108454425/177565882-a7856c53-ca3d-4817-b65c-563b6fe6bffe.png)
