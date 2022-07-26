@@ -1,7 +1,6 @@
 第一部分
 
 ```{r}
-
 data1<-read.csv("C:\\Users\\andyw\\OneDrive\\桌面\\課本\\統計軟體實務應用\\data1.csv")
 
 #將匯入的資料分成2019、2020矩陣
@@ -24,5 +23,4 @@ abline(a = r11$coefficients[1], b = r11$coefficients[2], col = "red")
 r12<-lm(M2020[, 1] ~ M2020[, 2])
 plot(x = M2020[, 1], y = M2020[, 2], xlab = "外資持股比", ylab = "市值成長率", main = "2020")
 abline(a = r12$coefficients[1], b = r12$coefficients[2], col = "red")
-
 ```
