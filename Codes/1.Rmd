@@ -1,5 +1,3 @@
-第一部分
-
 ```{r}
 data1<-read.csv("C:\\Users\\andyw\\OneDrive\\桌面\\課本\\統計軟體實務應用\\data1.csv")
 
